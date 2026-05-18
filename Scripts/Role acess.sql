@@ -1,0 +1,7 @@
+
+CREATE LOGIN FarmerAdmin WITH PASSWORD = 'Pass123';
+
+CREATE USER FarmerAdmin FOR LOGIN FarmerAdmin;
+
+ALTER LOGIN FarmerAdmin ENABLE;
+
